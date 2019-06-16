@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New Ecommerce site</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="external.css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="container">
+					<div class="row">
+						<div class="navbar-header">
+							<div class="col-md-3">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="#">Brand</a>
+							</div>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<div class="col-md-7">
+								<ul class="nav navbar-nav">
+									<li class="dropdown dropdown-large">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop By Category <b class="caret"></b></a>
+										
+										<ul class="dropdown-menu dropdown-menu-large row">
+											<li class="col-sm-6">
+												<ul>
+													<li class="dropdown-header">Collectibles and Art</li>
+													<li><a href="#">Collectible</a></li>
+													<li><a href="#">Antiques</a></li>
+													<li><a href="#">Sports memorabilia</a></li>
+													<li><a href="#">Arts</a></li>
+													<li class="divider"></li>
+													<li class="dropdown-header">Musical Instruments</li>
+													<li><a href="#">Guitar</a></li>
+													<li><a href="#">Accordion and concertina</a></li>
+													<li><a href="#">Electronic Keyboard</a></li>
+													<li><a href="#">Percussions</a></li>
+												</ul>
+											</li>
+											<li class="col-sm-6">
+												<ul>
+													<li class="dropdown-header">Books</li>
+													<li><a href="#">Action and Adventure</a></li>
+													<li><a href="#">Poetry</a></li>
+													<li><a href="#">Drama</a></li>
+													<li><a href="#">Encyclopedia</a></li>
+													<li><a href="#">Religion and Spirituality</a></li>
+													<li><a href="#">Comics</a></li>		
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<form class="navbar-form navbar-left">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Search" style="border-radius: 0; width:100%; border:1px solid #3a539b; width:100%;" >
+									</div>
+									<select class="category-option">
+										<option>All Categories</option>
+										<option>Collectible and arts</option>
+										<option>Books</option>
+										<option>Musical Instruments</option>
+									</select>
+									<button type="submit" class="btn">Search</button>
+								</form>
+							</div>
+							<div class="col-md-2">
+								<ul class="nav navbar-nav navbar-right">
+									<a href="" class="login" data-toggle="modal" data-target="#myModal">Log-in</a>&nbsp;or&nbsp;
+									<a href="" class="signup">Sign-up</a>&nbsp;&nbsp;&nbsp;
+									<a><i class="fas fa-shopping-cart data-toggle="tooltip" data-placement="bottom" title="Your Shopping Cart"></i></a>
+								</ul>
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											
+										</div>
+										<div class="modal-body">
+											<form>
+												<input type="email" name="" class="form-control" placeholder="E-mail">
+												<input type="password" name="" class="form-control" placeholder="Password">
+												<input type="checkbox">&nbsp;Remember me
+												<button class= "btn-large btn-block btn-primary">Login</button>
+												<button type="button" class="btn fb pull-left" data-dismiss="modal"><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;Facebook</button>
+												<button type="button" class="btn google pull-right"><i class="fab fa-google"></i>&nbsp;&nbsp;Google</button>
+											</form>
+										</div>
+										<div class="modal-footer">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+		<div id="owl-one" class= "owl-carousel">
+			<div class="item">
+				<img src="images/sufi.jpg">
+			</div>
+			<div class="item">
+				<img src="images/lamps.jpg">
+			</div>
+			<div class="item">
+				<img src="images/guitar.jpg">
+			</div>
+	</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<span>PAYMENT ON DELIVERY</span><br>
+						<span class="small">Safe and secure payment</span><br>
+						<span>BRAND WARRANTY</span><br>
+						<span class="small">100% genuine product</span><br>
+						<span>RETURNS AND EXCHANGE</span><br>
+						<span class="small">within 7 days of delivery</span><br>
+					</div>
+					<div class="shop-now">
+						<figure>
+							<img src="images/oilpainting.jpg">
+						</figure>
+						<center><span class="Op">Oil Painting</span></center>
+						<center><button class="btn"> Shop Now</button></center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="content-arts">
+<h4>Collectibles and Arts</h4>
+<div class="owl-carousel">
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/crystal.jpg">
+				</figure></center>
+			</div>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Natural Fluorte Quartz Crystal Raw Material<br>From China</span></a><br>
+				<span class="big_txt">Rs.25000</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/vintageiron.jpg">
+				</figure></center>
+			</div>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Vintage Brass Iron WIth Wood Turned Home Decor colletible<br>From India</span></a><br>
+				<span class="big_txt">Rs.12000</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/compass.jpg">
+				</figure></center>
+			</div><br>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Antique Compass 1.5 inch Nautical Marine vintage collectible gift<br>From India</span></a><br>
+				<span class="big_txt">Rs.15000</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/animalpaint.jpg">
+				</figure></center>
+			</div><br>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Fine wildlife art orignal painting 15XLM aquarelle cat watercolor signed A3<br>From Germany</span></a><br>
+				<span class="big_txt">Rs.15000</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/sunset.jpg">
+				</figure></center>
+			</div><br>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Unframed Sunset Ocean on Canvas Room Wall Art 4pcs Modern Oil Painting Z<br>From China</span></a><br>
+				<span class="big_txt">Rs.15000</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+		<div class="content-arts">
+<h4>Musical Instruments</h4>
+<div class="owl-carousel">
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/EG.jpg">
+				</figure></center>
+			</div>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Gibson Electric Guitar<br>From Japan</span></a><br>
+				<span class="big_txt">Rs.85600</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/EG1.jpg">
+				</figure></center>
+			</div>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">YAHAMA SA-20 Sunburst Used<br>From Japan</span></a><br>
+				<span class="big_txt">Rs.13710</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/P.jpg">
+				</figure></center>
+			</div><br>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">61 Keys Digital Electronic Keyboard Electric Piano Organ Instrument<br>From HongKong</span></a><br>
+				<span class="big_txt">Rs.20000</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/accordion.jpg">
+				</figure></center>
+			</div><br>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Hohner Concerto III S 3 S Accordion with case<br>From Germany</span></a><br>
+				<span class="big_txt">Rs.7000</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/percussion.jpg">
+				</figure></center>
+			</div><br>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Musical Percussion Instruments Wooden Egg Shakers Rhythm Rattle for Baby<br>From Hongkong</span></a><br>
+				<span class="big_txt">Rs.2800</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="content-arts">
+<h4>Books</h4>
+<div class="owl-carousel">
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/book5.jpg">
+				</figure></center>
+			</div>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Priya Sufi<br>Subin Bhattarai</span></a><br>
+				<span class="big_txt">Rs.500</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/Book1.jpg">
+				</figure></center>
+			</div>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Maha ko Ma<br>Madan Krishna Shrestha</span></a><br>
+				<span class="big_txt">Rs.518</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/book2.jpg">
+				</figure></center>
+			</div><br>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Buddha Mind, Buddha Body<br>Thich Nhat</span></a><br>
+				<span class="big_txt">Rs.312</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/book3.jpg">
+				</figure></center>
+			</div><br>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">1984<br>George Orwell</span></a><br>
+				<span class="big_txt">Rs.400</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="content_card">
+			<div class="content-img">
+				<center><figure>
+					<img src="images/book4.jpg">
+				</figure></center>
+			</div><br>
+			<div class ="content_text">
+				<center><a href=""><span class="small_txt">Breakfast of Champions<br>Kurt Vonnegut</span></a><br>
+				<span class="big_txt">Rs.800</span><br>
+				<button class="btn btn-left">Buy Now</button>&nbsp;<button class="btn btn-left">Add to Cart</button></center>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+			<footer>
+				<div class="footer_main">
+					<div class="container">
+						<div class="footer_top">
+							<div class="row">
+								<div class="col-md-3 col-sm-12 col-xs-12">
+									<ul><span class="footer_title">About</span>
+									<li><a href="">Contact us</a></li>
+									<li><a href="">About us</a></li>
+									<li><a href="">Careers</a></li>
+									<li><a href="">Our Stories</a></li>
+									<li><a href="">Press</a></li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-sm-12 col-xs-12">
+								<ul><span class="footer_title">Help</span>
+								<li><a href="">Payments</a></li>
+								<li><a href="">Shipping</a></li>
+								<li><a href="">FAQ</a></li>
+								<li><a href="">Cancellations and returns</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12">
+							<ul><span class="footer_title">Policy</span>
+							<li><a href="">Written Policy</a></li>
+							<li><a href="">Terms of use</a></li>
+							<li><a href="">Security</a></li>
+							<li><a href="">Privacy</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-12 col-xs-12">
+						<ul><span class="footer_title">Press and Media</span>
+						<li><a href="">In The News</a></li>
+						<li><a href="">Press Release</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="col-md-3">
+				<span class="footer_title">Stay Connected</span>
+				<div class="icons">
+					<a href=""><i class="fab fa-facebook"></i></a>&nbsp;
+					<a href=""><i class="fab fa-instagram"></i></a>&nbsp;
+					<a href=""><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<span class="footer_title">Download Our App</span>
+				<div class="link-button">
+					<button class="btn"><i class="fab fa-apple"></i> <span class="btn_text">App Store</span></button>
+					<button class="btn"><i class="fab fa-google-play"></i> <span class="btn_text"> Google Store</span></button>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<span class="footer_title">Payments</span>
+				<figure>
+					<a href=""><img src="images/esewa.png"></a>&nbsp;
+					<a href="">	<img src="images/Khalti.jpg"></a>&nbsp;
+					<a href="">	<img src="images/VISA.png"></a>&nbsp;
+					<a href="">	<img src="images/MasterCard_logo.png"></a>
+				</figure>
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript">
+	$('#owl-one').owlCarousel({
+					loop:true,
+					margin:10,
+					nav:true,
+					responsive:{
+					0:{
+					items:1
+					}
+				}
+				});
+	$('.owl-carousel').owlCarousel({
+					loop:true,
+					margin:20,
+					nav:true,
+					responsive:{
+					0:{
+					items:1
+					},
+					600:{
+					items:3
+					},
+					1000:{
+					items:4
+				}
+				}
+				});
+				</script>
+</html>
